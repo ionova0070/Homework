@@ -1,0 +1,9 @@
+C:\Users\User\documents\visual studio 2013\Projects\Homework\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\User\documents\visual studio 2013\Projects\Homework\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\User\documents\visual studio 2013\Projects\Homework\UnitTestProject1\bin\Debug\Equation.dll
+C:\Users\User\documents\visual studio 2013\Projects\Homework\UnitTestProject1\bin\Debug\Homework.exe
+C:\Users\User\documents\visual studio 2013\Projects\Homework\UnitTestProject1\bin\Debug\Equation.pdb
+C:\Users\User\documents\visual studio 2013\Projects\Homework\UnitTestProject1\bin\Debug\Homework.pdb
+C:\Users\User\documents\visual studio 2013\Projects\Homework\UnitTestProject1\obj\Debug\UnitTestsOfEquation.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2013\Projects\Homework\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\User\documents\visual studio 2013\Projects\Homework\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

@@ -1,0 +1,8 @@
+c:\users\user\documents\visual studio 2013\Projects\Homework\Homework\bin\Debug\Homework.exe.config
+c:\users\user\documents\visual studio 2013\Projects\Homework\Homework\bin\Debug\Homework.exe
+c:\users\user\documents\visual studio 2013\Projects\Homework\Homework\bin\Debug\Homework.pdb
+c:\users\user\documents\visual studio 2013\Projects\Homework\Homework\bin\Debug\Equation.dll
+c:\users\user\documents\visual studio 2013\Projects\Homework\Homework\bin\Debug\Equation.pdb
+c:\users\user\documents\visual studio 2013\Projects\Homework\Homework\obj\Debug\Homework.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\Homework\Homework\obj\Debug\Homework.exe
+c:\users\user\documents\visual studio 2013\Projects\Homework\Homework\obj\Debug\Homework.pdb

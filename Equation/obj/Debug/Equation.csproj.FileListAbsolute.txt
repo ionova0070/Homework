@@ -1,0 +1,5 @@
+c:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\bin\Debug\Equation.dll
+c:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\bin\Debug\Equation.pdb
+c:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\obj\Debug\Equation.csprojResolveAssemblyReference.cache
+c:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\obj\Debug\Equation.dll
+c:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\obj\Debug\Equation.pdb
