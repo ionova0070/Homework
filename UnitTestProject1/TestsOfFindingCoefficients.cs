@@ -11,10 +11,10 @@ namespace UnitTestsOfEquation
         //Проверка уравнения, содержащего положительные коэффициенты, не равные единице
         public void PositiveCoefficients_IsntEqualOne()
         {
-            string _equation = "2x^2+3x+1=0";
+            string _equation = "2x^2+3x+3=0";
             int ExpectedCoeffA = 2;
             int ExpectedCoeffB = 3;
-            int ExpectedCoeffC = 1;
+            int ExpectedCoeffC = 3;
 
             Equation EquationForTest = new Equation();
             EquationForTest.FindCoefficients(_equation);

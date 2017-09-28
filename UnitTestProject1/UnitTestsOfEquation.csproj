@@ -50,10 +50,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="TestsFindRoots.cs" />
     <Compile Include="TestsIsQuadraticEquation.cs" />
+    <Compile Include="TestsIsRightView.cs" />
+    <Compile Include="TestsNumberOfRoots.cs" />
     <Compile Include="TestsOfFindingCoefficients.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestsOfCalculatingDiscriminate.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Equation\MathOfEquationLibrary.csproj">

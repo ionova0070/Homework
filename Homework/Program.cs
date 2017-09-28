@@ -11,39 +11,44 @@ namespace Homework
     {
         static void Main(string[] args)
         {
-            string s = Console.ReadLine();
+            Console.WriteLine("Введите уравнение без пробелов, используя прописные буквы и символы ^,+,-,=");
+            string EquationLine = Console.ReadLine();
+
             Equation equation = new Equation();
 
-            equation.FindCoefficients(s);
-            if (equation.IsQuadraticEcuation(equation.GetCoefficientA()))
+            if (equation.IsRightView(EquationLine))
             {
-                Console.WriteLine("Уравнение квадратное");
-                equation.CalculateDiscriminate(equation.GetCoefficientA(), equation.GetCoefficientB(), equation.GetCoefficientC());
-                if (equation.NumberOfRoots() == 0)
-                {
-                    Console.WriteLine("Корней нет");
-                }
-                else
-                {
-                    equation.FindQuadraticRoots();
-                    if (equation.NumberOfRoots() == 2)
+                equation.FindCoefficients(EquationLine);
+
+                int NumberOfRootsOfEquation = equation.NumberOfRoots(equation.GetCoefficientA(), equation.GetCoefficientB(), equation.GetCoefficientC());
+                
+                equation.FindRoots(equation.GetCoefficientA(), equation.GetCoefficientB(), equation.GetCoefficientC());
+
+                //Проверяем квадратное ли уравнение
+                if (equation.IsQuadraticEcuation(equation.GetCoefficientA()))
+                {                  
+                    if (NumberOfRootsOfEquation == 2)
                     {
-                        Console.WriteLine("Два корня " + equation.GetRoot1() + " и " + equation.GetRoot2());
+                        Console.WriteLine("Квадратное уравнение имеет 2 корня: "+equation.GetRoot1()+" и "+equation.GetRoot2());
+                    }
+                    else if (NumberOfRootsOfEquation == 1)
+                    {
+                        Console.WriteLine("Квадратное уравнение имеет 1 корень: "+equation.GetRoot1());
                     }
                     else
                     {
-                        Console.WriteLine("Один корень " + equation.GetRoot1());
+                        Console.WriteLine("Квадратное уравнение не имеет корней.");
                     }
                 }
-
+                else
+                {
+                    Console.WriteLine("Линейное уравнение имеет корень "+equation.GetRoot1());
+                }
             }
             else
             {
-                Console.WriteLine("Уравнение линейное");
-                equation.FindLinearRoot();
-                Console.WriteLine("Имеется один линейный корень " + equation.GetRoot1());
+                Console.WriteLine("Уравнение введено в неверном формате!");
             }
-            Console.WriteLine("Hello, world!");
 
             Console.ReadKey();
         }

@@ -2,3 +2,4 @@ C:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\bin\Debug\
 C:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\bin\Debug\Equation.pdb
 C:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\obj\Debug\Equation.dll
 C:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\obj\Debug\Equation.pdb
+C:\Users\User\documents\visual studio 2013\Projects\Homework\Equation\obj\Debug\MathOfEquationLibrary.csprojResolveAssemblyReference.cache
